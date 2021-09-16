@@ -18,9 +18,9 @@ body { margin: 0; padding: 0; }
 	mapboxgl.accessToken = 'pk.eyJ1IjoiZnJhbnppbmR1c3RyaWVzIiwiYSI6ImNrZXN6bDI0ZDE5ejMycm1yMzQ4YTcxcmkifQ.aL6yg8sRwBFNq_7Trmtw9Q';
 const map = new mapboxgl.Map({
 container: 'map', // container ID
-style: 'mapbox://styles/mapbox/satellite-v9', // style URL
+style: 'mapbox://styles/franzindustries/ckox0180z0zu317qehibd2dew', // style URL
 zoom: 7, // starting zoom
-center: [138.043, 35.201] // starting center
+center: [30.143243, 6.914554] // starting center
 });
 
 map.on('load', () => {
@@ -39,8 +39,8 @@ map.addLayer({
   'line-cap': 'round'
   },
   'paint': {
-  'line-color': '#888',
-  'line-width': 8
+  'line-color': 'red',
+  'line-width': 4
   }
 });
 });
